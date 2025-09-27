@@ -1,0 +1,35 @@
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+body {
+    background-color: goldenrod;
+}
+h1 {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    /* background-color: lightseagreen; */
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin: auto;
+}
+ul {
+    margin : 10px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+ul a {
+    text-decoration: none;
+    display:inline-block;
+    /* display:inline-block; */
+    /* margin:auto 10px; */
+    color:darkmagenta;
+    font-size:20px;
+}
+ul a:hover{
+    cursor: pointer;
+    font-size:x-large;
+    text-decoration: underline dashed black;
+}
